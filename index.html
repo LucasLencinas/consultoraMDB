@@ -20,15 +20,10 @@
     <!-- Custom Fonts -->
     <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
     <link href="http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
+    <link href='https://fonts.googleapis.com/css?family=Oswald:700' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Anton' rel='stylesheet' type='text/css'>
 
-
-
-    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
-        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-    <![endif]-->
+    <link rel="icon" href="img/favicon3.ico" sizes="16x16 32x32 48x48 64x64" type="image/vnd.microsoft.icon">
 
 </head>
 
@@ -62,8 +57,34 @@
 
     <!-- Header -->
     <header id="top" class="header">
-        <div class="text-vertical-center">
+      <div class="container">
+          <div class="row">
+              <div class="col-lg-12">
+                <div class="white-title">
+                  <h2>CONSULTORA</h3>
+                  <h3>Integral de Industria y Construcci&oacute;n</h4>
+                </div>
+              </div>
+          </div>
+      </div>
+      <!--<div class="text-center" style="height:100%">-->
+      <div class="container">
+        <div class="row">
+          <div class="text-center" style="height:100%">
+            <a href="#about" class="btn btn-circle page-scroll" style="position: absolute; bottom: 10%; left:46%; color: #484159">
+              <span class="fa-stack fa-3x">
+                <i class="fa fa-circle fa-stack-2x"></i>
+                <i class="fa fa-angle-double-down fa-stack-1x fa-inverse" style="color:"></i>
+              </span>
+            </a>
+            <!--
+            <a href="#about" class="btn btn-circle page-scroll">
+              <i class="fa fa-angle-double-down animated"></i>
+            </a>
+            -->
+          </div>
         </div>
+      </div>
     </header>
 
     <!-- About -->
@@ -84,7 +105,7 @@
                                     <strong>Perla Dominguez</strong>
                                 </h4>
                                 <p>Arquitecta.</p>
-                                <a href="#" class="btn btn-light">Mas Info</a>
+                                <a type="button" class="btn btn-light" data-toggle="modal" data-target=".bs-example-modal-lg">Mas Info</a>
                             </div>
                         </div>
                         <div class="col-md-3 col-sm-6">
@@ -97,7 +118,6 @@
                                     <strong>Antonio Maropulos</strong>
                                 </h4>
                                 <p>Licenciado en Seguridade Higiene.</p>
-                                <a href="#" class="btn btn-light">Mas Info</a>
                             </div>
                         </div>
                         <div class="col-md-3 col-sm-6">
@@ -110,7 +130,6 @@
                                     <strong>Juan Bianchi</strong>
                                 </h4>
                                 <p>Tecnico Informatico.</p>
-                                <a href="#" class="btn btn-light">Mas Info</a>
                             </div>
                         </div>
                         <div class="col-md-3 col-sm-6">
@@ -123,7 +142,6 @@
                                     <strong>Gaston Bregoli</strong>
                                 </h4>
                                 <p>Tecnico Informatico.</p>
-                                <a href="#" class="btn btn-light">Mas Info</a>
                             </div>
                         </div>
                     </div>
@@ -158,7 +176,7 @@
                                 <i class="fa fa-clipboard fa-stack-1x text-primary"></i>
                             </span>
                                 <h2>
-                                    <strong>Gestión</strong>
+                                    <strong>Gesti&oacute;n</strong>
                                 </h2>
                                 <div class="lista-servicios">
                                 <i class="fa fa-check"></i> Gestión y confección de plano municipal<br>
@@ -184,7 +202,7 @@
                                 <i class="fa fa-building-o fa-stack-1x text-primary"></i>
                             </span>
                                 <h2>
-                                    <strong>Construccion</strong>
+                                    <strong>Construcci&oacute;n</strong>
                                 </h2>
                                 <div class="lista-servicios">
                                   <i class="fa fa-check"></i> Construcción metálica de galpones y depositos<br>
@@ -253,6 +271,105 @@
         </div>
     </footer>
 
+    <div class="modal fade bs-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel">
+      <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+            <h3 class="modal-title" id="myModalLabel"><strong>Arquitecta Perla Dominguez</strong></h3>
+          </div>
+          <div class="modal-body">
+            <p>Egresada de <b>Escuela Técnica</b> con el título de <b>Maestro Mayor de Obras</b> en el año 1996 y luego ingresando la <b>Universidad de Buenos Aires</b> , para egresar con título de grado como <b>Arquitecta</b> en la en el año 2009.</p>
+            <h3>Historial Laboral:</h3>
+            <div class="dropdownable">
+              <a><span class="glyphicon glyphicon glyphicon-chevron-down" aria-hidden="true"></span> <strong> Técnica: </strong>1998 – 2007  </a>
+              <ul>
+                <li>Secretaria de Obras Públicas</li>
+                <li>Dirección de Obras Públicas y Viales</li>
+                <li>Dirección de Planeamiento</li>
+                <li>Realización de tareas de cómputo y presupuesto de obra, confección de pliegos, según legislación Nacional, Provincial y según ley orgánica de las municipalidades. Abarcando las condicionantes jurídicas y técnicas respectivas. </li>
+                <li>Desarrollo de certificación de obras.</li>
+                <li>Ejecución de proyectos viales (planimetría y altimetría)- apoyo en áreas como redes, hidráulica y planeamiento.</li>
+              </ul>
+              <br><small>MUNICIPALIDAD DE MORENO, Obras Publicas | Dr. Eduardo Asconape 51 - Moreno - BS AS</small>
+              <hr>
+            </div>
+            <div class="dropdownable">
+              <a><span class="glyphicon glyphicon glyphicon-chevron-down" aria-hidden="true"></span> <strong>Técnica- Dirección de Obra: </strong>  2007 - 2009 </a>
+              <ul>
+                <li>Documentación de Obra de las Torres le Parc –Figueroa Alcorta</li>
+                <li>Asistencia en documentación –en obra- a los profesionales de diferentes áreas</li>
+              </ul>
+              <br><small>IANUZZI- COLOMBO ARQ. | Rodríguez Peña Nº770-10ºPiso-CABA</small>
+              <hr>
+            </div>
+            <div class="dropdownable">
+              <a><span class="glyphicon glyphicon glyphicon-chevron-down" aria-hidden="true"></span> <strong>Profesional a cargo de Área técnica– Directora Técnica de Empresa y Representante Técnico: </strong>2009-2013 </a>
+              <ul>
+                <li>Análisis de pliegos, y obras en general incluyendo cómputo y presupuesto para la presentación a licitaciones, certificación de obras Públicas del distrito de merlo.</li>
+                <li>Gestionar las directivas empresariales para realizar los proyectos, otorgándole toda la documentación necesaria a las áreas ejecutoras. Vinculando profesionales de distintas temáticas para la ejecución de los trabajos. Monitoreo personal de la documentación, ejecución, y todo lo referido a la administración de la obra pública y privada. Fiscalización de las compras de materiales específicos. Coordinación de los trabajos con los diferentes profesionales de la empresa para la obtención de los proyectos. Elaboración de diagnóstico y complejidad de los trabajos, realizando investigación para la obtención del mejor resultado, cumpliendo con los mandatos del estado público y el comitente privado.</li>
+                <li>Planificación de los tiempos con diagramas de Gantt.</li>
+                <li>Documentación de obras públicas y privadas – Ingeniería de detalles</li>
+                <li>Realización de proyectos,  cómputos y presupuestos de obras privadas y públicas. Guardería municipal, Hogar para ancianos, Oficinas administrativas de baja y alta complejidad, Escuela Municipal de Artes y Oficios (Municipal), Centro de Monitoreo (Municipal), participación en desarrollo de proyecto urbano para micros de larga distancia, Viviendas unifamiliares y multifamiliares (edificios de baja altura), Oficina Particulares, plazas. En todos los casos, más allá del proyecto arquitectónico, efectué el desarrollo de instalaciones (eléctricas, sanitarias, etc.) y detalles constructivos.</li>
+                <li>Dirección de obras en general, control de materiales e insumos.</li>
+                <li>Gestión para la aprobación de planos municipales.</li>
+              </ul>
+              <br><small>ESTUDIO FRANCISCO CICIARELLO Y ASOC. | Chacabuco Nº648-Merlo- BS AS</small>
+              <hr>
+            </div>
+            <div class="dropdownable">
+              <a><span class="glyphicon glyphicon glyphicon-chevron-down" aria-hidden="true"></span> <strong>Estudio Propio: </strong> 2013 - a la actualidad </a>
+              <ul>
+                <li><b>Realización  de proyectos</b> viviendas unifamiliares, multifamiliares, locales comerciales, industrias  y todo emprendimiento inmobiliario que requiera la intervención de un profesional de la construcción.</li>
+                <li><b>Documentación de obras</b> a estudios de arquitectura.</li>
+                <li><b>Estudios de mercado</b></li>
+                <li><b>Cómputo y presupuestos</b>, de todo tipo de obras, alcanzado un detalle maximizado de todos los ítems, obteniendo valores precisos de materiales y mano de obra, para lograr una ejecución más alcanzada de la obras y tener un mejor seguimiento de las mismas.</li>
+                <li><b>Asesoramiento</b> a particulares, empresas y emprendedores.</li>
+                <li><b>Desarrollo: INVESTIGACION Y DESARROLLO</b> de sistema de construcción en seco modulado  CMS para el progresivo desarrollo de viviendas industrializadas de bajo costo, alto rendimiento de tiempo y altamente confortables. Además adecuadas térmicamente para climas extremos.</li>
+                <li>Desarrollo de ejecución de viviendas en sistema de estructuras metálicas y panelerias .</li>
+                <li>Investigación constante de sistemas industrializados para mejora tiempos, rendimientos y costos.</li>
+                <li>Desarrollo de viviendas prototípicas para construcción seriada ( en investigación )</li>
+                <li>Obras:
+                  <ul>
+                    <li class="dropdownable"><a><span class="glyphicon glyphicon glyphicon-chevron-down" aria-hidden="true"></span> <strong>2014:</strong> </a>
+                      <ul>
+                        <li>Vivienda Unifamiliar 200m² - <small>calle: Blas pascal – La reja </small></li>
+                        <li>Desarrollo de documentación, proyecto y construcción y Dirección de Obra en construcción NO TRADICIONAL.Sistema de construcción en seco</li>
+                        <li>Proyecto de vivienda multifamiliar  400m² - <small>Calle: Bme. Mitre – Moreno</small></li>
+                        <li>Dirección de obras y construcción - <small>Remodelación Local comercial: Bme. Mitre y Pio XII</small></li>
+                        <li>Dirección de obras y construcción - <small>Calle N° 38- Mar Azul – Villa Gesell</small></li>
+                        <li>Construcción de vivienda en sistema modular en seco.</li>
+                        <li>Proyecto, desarrollo de documentación y Dirección de Obra en construcción NO TRADICIONAL.</li>
+                        <li>Proyecto - <small>Calle N° 38- Mar Azul – Villa Gesell</small></li>
+                        <li>Proyecto Integral para complejo turístico</li>
+                      </ul>
+                    </li><!-- fin 2014 -->
+                    <li class="dropdownable"><a><span class="glyphicon glyphicon glyphicon-chevron-down" aria-hidden="true"></span> <strong>2015:</strong></a>
+                      <ul>
+                        <li>Proyecto Vivienda multifamiliar –  <small>Luis Guillon</small></li>
+                        <li>Vivienda Unifamiliar – <small>L. de la Torre-Moreno</small></li>
+                        <li>Procrear varios</li>
+                        <li>Diseño interior Panadería Las Palmeras – <small>Merlo</small></li>
+                      </ul>
+                    </li> <!-- fin 2015 -->
+                    <li class="dropdownable" ><a><span class="glyphicon glyphicon glyphicon-chevron-down" aria-hidden="true"></span> <strong>2016:</strong></a>
+                      <ul>
+                        <li>Proyecto y dirección en ejecución - <small> Depósito y logística - Pilar</small></li>
+                        <li>Proyecto - <small>Edificio de viviendas en CABA</small></li>
+                      </ul>
+                    </li> <!-- fin 2016 -->
+                  </ul>
+                </li>
+              </ul>
+              <br><small>ESTUDIO MODULO ARQUITECTURA | Alsina Nº1370- La Reja</small>
+              <hr>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
     <!-- jQuery -->
     <script src="js/jquery.js"></script>
 
@@ -290,6 +407,17 @@
                 }
             }
         });
+
+        $('.dropdownable a').click(function() {
+          $(this).children("span").toggleClass('glyphicon-chevron-down glyphicon-chevron-up');
+          $(this).next().slideToggle();
+        });
+
+        /*
+           $('li.dropdownable').not(this).find('ul').hide();
+           $(this).find('ul').toggle();
+        });
+        */
     });
 
     function initMap() {
@@ -319,6 +447,7 @@
       });
 
     }
+
 
 
     google.maps.event.addDomListener(window, "load", initMap);
