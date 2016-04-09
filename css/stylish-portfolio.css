@@ -258,7 +258,7 @@ background-color: #565D62;
 /* Footer */
 
 footer {
-    padding: 50px 0;
+    padding: 50px 0 5px 0;
     background-color: rgba(70, 72, 72, 0.11);
 }
 
@@ -285,4 +285,9 @@ footer {
 
 .dropdownable ul {
   display: none;
+}
+
+#firma{
+  font-family: 'Indie Flower', cursive;
+  font-weight: bold;
 }
